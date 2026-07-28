@@ -1,0 +1,26 @@
+# This repository is intentionally a source-only public release.
+# Ignore everything unless it is explicitly allowlisted below.
+*
+
+!.gitignore
+!README.md
+!monitorbench_experiment.py
+
+!followup/
+followup/*
+!followup/__init__.py
+!followup/followup_experiment.py
+!followup/run_followup.py
+!followup/test_followup.py
+
+!secondary_objective/
+secondary_objective/*
+!secondary_objective/acrostic_experiment.py
+!secondary_objective/run_acrostic.py
+!secondary_objective/test_acrostic.py
+
+!secondary_objective_watermark/
+secondary_objective_watermark/*
+!secondary_objective_watermark/watermark_experiment.py
+!secondary_objective_watermark/run_watermark.py
+!secondary_objective_watermark/test_watermark.py
